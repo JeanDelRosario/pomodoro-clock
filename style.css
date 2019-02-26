@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(238, 29, 29);
+}
+
+.p-second {
+  font-size: 20px;
+  margin: 0 10px  0 10px;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  text-align:center;
+  color: black;
+}
+#settingsIcon {
+  width: 20px;
+}
+#btn-settings {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background: transparent;
+  border: 0px;
+}
+
+#settings { 
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  display: grid;
+  grid-template-columns: 120px 50px;
+  grid-template-rows: 40px 40px;
+  align-items: center;
+}
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#times {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  justify-content: center;
+}
+#break, #session {
+  display: flex;
+  width: 50%;
+}
+
+.up-arrow {
+  width: 50px
+}
+.down-arrow {
+  width: 50px;
+}
+
+#time-mode, #time-left {
+  width: 150px;
+  text-align: center;
+}
+
+.btn-change {
+  background: transparent;
+  color: black;
+  border: 0px;
+}
+
+#btn-control {
+  display: flex;
+  flex-direction:row;
+  margin-top: 15px;
+}
+#start-stop, #reset {
+  width: 110px;
+  background: transparent;
+  border: 0px;
+}
+
+#playPauseIcon {
+  width: 20px;
+}
+
+#playIcon1 {
+  width: 20px;
+}
+#pauseIcon2 {
+  width: 20px;
+  display: none;
+}
+#playIcon2 {
+  width: 20px;
+  display: none;
+}
+#pauseIcon1 {
+  width: 20px;
+}
+#resetIcon{
+  width: 30px;
+}
